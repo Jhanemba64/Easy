@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste de Châteaux</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Liste de Châteaux</h1>
+        <div class="buttons">
+            <button onclick="filterChateaux('all')">Tous</button>
+            <button onclick="filterChateaux('medieval')">Médiéval</button>
+            <button onclick="filterChateaux('renaissance')">Renaissance</button>
+        </div>
+        <div class="chateaux-list" id="chateaux-list">
+            <!-- Les cartes des châteaux seront insérées ici -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
